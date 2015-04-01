@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-root 'projects#home'
+root 'portfolio#home'
 end
