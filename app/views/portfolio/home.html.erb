@@ -1,251 +1,251 @@
 <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container">
-        <%= image_tag ("profile_resized.jpg"), class: 'profile-image img-responsive pull-left', id: "profile-pic" %>
-            <div class="profile-content pull-left">
-                <h1 class="name">Travis Eubanks</h1>
-                <h2 class="desc">Web Developer</h2>
-                <ul class="social list-inline">
-                    <li><a href="https://twitter.com/teubanks13"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/traviseubanks"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/eubanksanator"><i class="fa fa-github-alt"></i></a></li>
-                </ul>
-            </div><!--//profile-->
+<header class="header">
+	<div class="container">
+		<%= image_tag ("profile_resized.jpg"), class: 'profile-image img-responsive pull-left', id: "profile-pic" %>
+		<div class="profile-content pull-left">
+			<h1 class="name">Travis Eubanks</h1>
+			<h2 class="desc">Web Developer</h2>
+			<ul class="social list-inline">
+				<li><a href="https://twitter.com/teubanks13"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/traviseubanks"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/eubanksanator"><i class="fa fa-github-alt"></i></a></li>
+			</ul>
+		</div><!--//profile-->
 
-        </div><!--//container-->
-    </header><!--//header-->
+	</div><!--//container-->
+</header><!--//header-->
 
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Over the last year I really showed my interest in web developement.  Starting this year in January - March, I completed an immersive and intensive Web Application Development program at <%= link_to 'The Starter League', "http://www.starterleague.com/" %> where Ruby on Rails was the main developement language we coded as well as JavaScript, jQuery library, HTML &amp; CSS and the Bootstrap framework.  With that being said im PUMPED to take on new challenges and learn as much as possible.</p>
+<div class="container sections-wrapper">
+	<div class="row">
+		<div class="primary col-md-8 col-sm-12 col-xs-12">
+			<section class="about section">
+				<div class="section-inner">
+					<h2 class="heading">About Me</h2>
+					<div class="content">
+						<p>Over the last year I really showed my interest in web developement.  Starting this year in January - March, I completed an immersive and intensive Web Application Development program at <%= link_to 'The Starter League', "http://www.starterleague.com/" %> where Ruby on Rails was the main developement language we coded as well as JavaScript, jQuery library, HTML &amp; CSS and the Bootstrap framework.  With that being said im PUMPED to take on new challenges and learn as much as possible.</p>
 
-                            <p>Not only being a passionate developer I'm also a nationally certified personal trainer!  Using the motivation and dedication I formed from training I bring it into the developers world.  I love to travel (can't wait to see Yellowstone Park).  Always enjoy a cold craft beer when it's called for!  Being a motivated eager new developer I'm looking to be part of an awesome and supportive team with an up-beat atmosphere in an intern/entry-level developer position and also looking to take on freelance/contract work in the mean time.</p>
+						<p>Not only being a passionate developer I'm also a nationally certified personal trainer!  Using the motivation and dedication I formed from training I bring it into the developers world.  I love to travel (can't wait to see Yellowstone Park).  Always enjoy a cold craft beer when it's called for!  Being a motivated eager new developer I'm looking to be part of an awesome and supportive team with an up-beat atmosphere in an intern/entry-level developer position and also looking to take on freelance/contract work in the mean time.</p>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-                <div class="item row">
-                    <h4 class="col-md-8 col-sm-8 col-xs-12">ALL APPS BUILT WITH RUBY ON RAILS</h4>
-                </div>
+					</div><!--//content-->
+				</div><!--//section-inner-->
+			</section><!--//section-->
+			<div class="item row">
+				<h4 class="col-md-8 col-sm-8 col-xs-12">ALL APPS BUILT WITH RUBY ON RAILS</h4>
+			</div>
 
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</small></h2>
-                        <div class="content">
+			<section class="latest section">
+				<div class="section-inner">
+					<h2 class="heading">Latest Projects</small></h2>
+					<div class="content">
 
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="https://billed.herokuapp.com/users/sign_in" target="_blank">Billed</a></h3>
-                                <p class="summary">A reminder never hurt anyone.</p>
-                                <div class="featured-image">
-                                    <a href="https://billed.herokuapp.com/users/sign_in" target="_blank">
-                                    <%= image_tag 'billed.png', class: 'img-responsive project-image' %>
-                                    </a>
-                                <div class="desc text-left">
-                                    <p>Billed is a simple app where you can become a user and plug in a name of a bill with its due date and a date you want to be reminded of the dued bill.</p>
-                                    <p>Billed uses the twilio API to send the reminder text with the bill info. All done by a cron job in the background.</p>
-                                </div><!--//desc-->
-                              <!--   <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a> -->
-                            </div><!--//item-->
-                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://show-me-the-gym.herokuapp.com/" target="_blank">
-                                <%= image_tag 'showmethegymhome.png', class: 'img-responsive project-image' %>
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://show-me-the-gym.herokuapp.com/" target="_blank">Show Me The Gyms - Not sure what gyms are around you, no worries!</a></h3>
-                                    <p>Sometimes the hardest initial step to joining a gym is finding out where there is one.  With Show Me The Gyms app, It's as easy as typing your address in and getting a list of gyms in a 8 mile radius. May you choose your gym wisely, and watch out for the tools!</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+						<div class="item featured text-center">
+							<h3 class="title"><a href="https://billed.herokuapp.com/users/sign_in" target="_blank">Billed</a></h3>
+							<p class="summary">A reminder never hurt anyone.</p>
+							<div class="featured-image">
+								<a href="https://billed.herokuapp.com/users/sign_in" target="_blank">
+									<%= image_tag 'billed.png', class: 'img-responsive project-image' %>
+								</a>
+								<div class="desc text-left">
+									<p>Billed is a simple app where you can become a user and plug in a name of a bill with its due date and a date you want to be reminded of the dued bill.</p>
+									<p>Billed uses the twilio API to send the reminder text with the bill info. All done by a cron job in the background.</p>
+								</div><!--//desc-->
+								<!--   <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a> -->
+							</div><!--//item-->
+							<hr class="divider" />
+							<div class="item row">
+								<a class="col-md-4 col-sm-4 col-xs-12" href="https://show-me-the-gym.herokuapp.com/" target="_blank">
+									<%= image_tag 'showmethegymhome.png', class: 'img-responsive project-image' %>
+								</a>
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title"><a href="https://show-me-the-gym.herokuapp.com/" target="_blank">Show Me The Gyms - Not sure what gyms are around you, no worries!</a></h3>
+									<p>Sometimes the hardest initial step to joining a gym is finding out where there is one.  With Show Me The Gyms app, It's as easy as typing your address in and getting a list of gyms in a 8 mile radius. May you choose your gym wisely, and watch out for the tools!</p>
+								</div><!--//desc-->
+							</div><!--//item-->
 
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <%= image_tag 'midwestrexshow.png', class: 'img-responsive project-image' %>
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="#" target="_blank">MidWest Rex - Simple mock forum</a></h3>
-                                    <p>MidWest Rex is a forum that I built for purpose to target all Midwest WRX owners to give more of an exclusive community to them.  Makes setting up meets and buy/sell/trade more local.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                <%= image_tag 'workoutbank1.png', class: 'img-responsive project-image' %>
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="#" target="_blank">WorkoutBank - Exercise tracker</a></h3>
-                                    <p> Allows a user to store their workouts and search by ether a muscle group, difficulty level, or an exercise itself.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-                            <div class="item row">
-                                <p><h4>To check out all the source code for these projects and more visit my <%= link_to 'GitHub', 'https://github.com/eubanksanator', target: "_blank" %></h4></p>
-                            </div>
+							<div class="item row">
+								<a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
+									<%= image_tag 'midwestrexshow.png', class: 'img-responsive project-image' %>
+								</a>
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title"><a href="#" target="_blank">MidWest Rex - Simple mock forum</a></h3>
+									<p>MidWest Rex is a forum that I built for purpose to target all Midwest WRX owners to give more of an exclusive community to them.  Makes setting up meets and buy/sell/trade more local.</p>
+								</div><!--//desc-->
+							</div><!--//item-->
+							<div class="item row">
+								<a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
+									<%= image_tag 'workoutbank1.png', class: 'img-responsive project-image' %>
+								</a>
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title"><a href="#" target="_blank">WorkoutBank - Exercise tracker</a></h3>
+									<p> Allows a user to store their workouts and search by ether a muscle group, difficulty level, or an exercise itself.</p>
+								</div><!--//desc-->
+							</div><!--//item-->
+							<div class="item row">
+								<p><h4>To check out all the source code for these projects and more visit my <%= link_to 'GitHub', 'https://github.com/eubanksanator', target: "_blank" %></h4></p>
+							</div>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-
-
-
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                        <div class="item">
-                                <h3 class="title">Web Master/Developer-<span class="place"><a href="#">Tutela Holdings - Apex3 &amp Premier Security and Apex3 Systems</a></span> <span class="year">(April 2015 - present)</span></h3>
-                                <p>Tutela Holdings is a company running three other security companies: Apex3 &amp Premier Security and Apex3 Systems.I currently take care of everything Web Tech.  Apex3 &amp Premier Security are both contracted security guard fullfillment companies who care tremendously on affective work with exceptional customer service.  Apex3 Systems is Security mixed with technology. Apex3 is where web application development takes place.  Building and maintaining company websites.  Starting in house web apps from the start to finish.  Working directly with the CIO.  I do A LOT of R&ampD so learning new things is a common daily piece of workflow.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Ruby on Rails Developer Intern -<span class="place"><a href="https://thinklabmedia.com">Thinklab Media</a></span> <span class="year">(2015 - 2015)</span></h3>
-                                <p>Thinklab Media is the intersection of people and technology who build software to help businesses make money.  As a remote RoR developer intern I'm helping with a current web app to create an ecosystem for entrepreneurs.  My first project is creating the user and profiles feature allowing easy sign up and creation of profile in a user friendly process.  As a team we work in an agile development work flow.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Teacher Assistant - <span class="place"><a href="#">The Starter League</a></span> <span class="year">(April 2015 - April 2015)</span></h3>
-                                <p> Volunteered teacher assistant for HTML, CSS, Bootstrap and GitHub workshops helping students learn the fundamentals of building a website and how to use the resources given to them.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Hackathon Team Member - <span class="place"><a href="#">The Starter League</a></span> <span class="year">(2015 - 2015)</span></h3>
-                                <p> Collaborate as a dev team to come up with and implement ideas into real live working apps.  Maintain positive and efficient workflow through pair programming and best practices</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Personal Trainer - <span class="place"><a href="#">XSport Fitness</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p>Develop and implement specific training programs for a variety of clients with diverse set of goals.  Provided memorable client experiences through work ethic, motivation, and obtaining clients goals.  Completion from start to finish on all client projects by using all available resources in addition to personal skills.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Server/sales - <span class="place"><a href="#">Jimmys Charhouse</a></span> <span class="year">(2014 - 2015)</span></h3>
-                                <p> Provide exceptional guests services and experiences.  Succeeded at upselling and product suggestion.  Maintain proper company standards.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Event sales - <span class="place"><a href="#">Sunquest Promotions</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p> Hit exceptionally high sales for events being promoted for that current week.  Provide support to our customers providing information on events and any help or issues they may have.</p>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>South Elgin, IL US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span> tmeubanks113@gmail.com</li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.traviseubanks.com</a></li>
-                                <li><i class="fa fa-phone"></i><span class="sr-only">Phone:</span>847-508-8751</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
-
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Skills I have are Ruby on Rails, HTML &amp; CSS, Bootstrap, MVC, mySQLite3, Heroku, GitHub and Wordpress.  Other experience working with JavaScript, jQuery library, JSON, APIs, SASS.  Drive to enhance my skills with curiosity on new languages and skills </p>
-
-                            <div class="skillset">
-                                <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="50%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">HTML, CSS, Bootstrap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="50%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-
-                                <div class="item">
-                                    <h3 class="level-title">JavaScript, AJAX and jQuery library <span class="level-label">Beginner</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="20%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Drive for success<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="100%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <p><a class="more-link" href="https://github.com/eubanksanator"><i class="fa fa-external-link"></i> More on GitHub</a></p>
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> 11 week Intensive and immersive Web Application Program</h3>
-                                <h4 class="university">The Starter League <span class="year">(2015-2015)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> GenEds-Computer Science</h3>
-                                <h4 class="university">Elgin Community College <span class="year">(2012-2014)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> ACE Personal Training Certificate</h3>
-                                <h4 class="university">ACE<span class="year">(2013)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+						</div><!--//content-->
+					</div><!--//section-inner-->
+				</section><!--//section-->
 
 
 
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-headphones"></i>Love some instrumentals</li>
-                                <li><i class="fa fa-headphones"></i>EDM</li>
-                                <li><i class="fa fa-headphones"></i>Rock Classics Spotify playlist</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+				<section class="experience section">
+					<div class="section-inner">
+						<h2 class="heading">Work Experience</h2>
+						<div class="content">
+							<div class="item">
+								<h3 class="title">Web Master/Developer-<span class="place"><a href="#">Tutela Holdings - Apex3 &amp Premier Security and Apex3 Systems</a></span> <span class="year">(April 2015 - present)</span></h3>
+								<p>Tutela Holdings is a company running three other security companies: Apex3 &amp Premier Security and Apex3 Systems.I currently take care of everything Web Tech.  Apex3 &amp Premier Security are both contracted security guard fullfillment companies who care tremendously on affective work with exceptional customer service.  Apex3 Systems is Security mixed with technology. Apex3 is where web application development takes place.  Building and maintaining company websites.  Starting in house web apps from the start to finish.  Working directly with the CIO.  I do A LOT of R&ampD so learning new things is a common daily piece of workflow.</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Ruby on Rails Developer Intern -<span class="place"><a href="https://thinklabmedia.com">Thinklab Media</a></span> <span class="year">(2015 - 2015)</span></h3>
+								<p>Thinklab Media is the intersection of people and technology who build software to help businesses make money.  As a remote RoR developer intern I'm helping with a current web app to create an ecosystem for entrepreneurs.  My first project is creating the user and profiles feature allowing easy sign up and creation of profile in a user friendly process.  As a team we work in an agile development work flow.</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Teacher Assistant - <span class="place"><a href="#">The Starter League</a></span> <span class="year">(April 2015 - April 2015)</span></h3>
+								<p> Volunteered teacher assistant for HTML, CSS, Bootstrap and GitHub workshops helping students learn the fundamentals of building a website and how to use the resources given to them.</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Hackathon Team Member - <span class="place"><a href="#">The Starter League</a></span> <span class="year">(2015 - 2015)</span></h3>
+								<p> Collaborate as a dev team to come up with and implement ideas into real live working apps.  Maintain positive and efficient workflow through pair programming and best practices</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Personal Trainer - <span class="place"><a href="#">XSport Fitness</a></span> <span class="year">(2013 - 2014)</span></h3>
+								<p>Develop and implement specific training programs for a variety of clients with diverse set of goals.  Provided memorable client experiences through work ethic, motivation, and obtaining clients goals.  Completion from start to finish on all client projects by using all available resources in addition to personal skills.</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Server/sales - <span class="place"><a href="#">Jimmys Charhouse</a></span> <span class="year">(2014 - 2015)</span></h3>
+								<p> Provide exceptional guests services and experiences.  Succeeded at upselling and product suggestion.  Maintain proper company standards.</p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Event sales - <span class="place"><a href="#">Sunquest Promotions</a></span> <span class="year">(2013 - 2014)</span></h3>
+								<p> Hit exceptionally high sales for events being promoted for that current week.  Provide support to our customers providing information on events and any help or issues they may have.</p>
+							</div><!--//item-->
+						</div><!--//content-->
+					</div><!--//section-inner-->
+				</section><!--//section-->
+			</div><!--//primary-->
+			<div class="secondary col-md-4 col-sm-12 col-xs-12">
+				<aside class="info aside section">
+					<div class="section-inner">
+						<h2 class="heading sr-only">Basic Information</h2>
+						<div class="content">
+							<ul class="list-unstyled">
+								<li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>South Elgin, IL US</li>
+								<li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span> tmeubanks113@gmail.com</li>
+								<li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.traviseubanks.com</a></li>
+								<li><i class="fa fa-phone"></i><span class="sr-only">Phone:</span>847-508-8751</li>
+							</ul>
+						</div><!--//content-->
+					</div><!--//section-inner-->
+				</aside><!--//aside-->
+
+				<aside class="skills aside section">
+					<div class="section-inner">
+						<h2 class="heading">Skills</h2>
+						<div class="content">
+							<p class="intro">
+								Skills I have are Ruby on Rails, HTML &amp; CSS, Bootstrap, MVC, mySQLite3, Heroku, GitHub and Wordpress.  Other experience working with JavaScript, jQuery library, JSON, APIs, SASS.  Drive to enhance my skills with curiosity on new languages and skills </p>
+
+								<div class="skillset">
+									<div class="item">
+										<h3 class="level-title">Ruby on Rails<span class="level-label">Intermediate</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="50%">
+											</div>
+										</div><!--//level-bar-->
+									</div><!--//item-->
+
+									<div class="item">
+										<h3 class="level-title">HTML, CSS, Bootstrap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Intermediate</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="50%">
+											</div>
+										</div><!--//level-bar-->
+									</div><!--//item-->
 
 
-            </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
+									<div class="item">
+										<h3 class="level-title">JavaScript, AJAX and jQuery library <span class="level-label">Beginner</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="20%">
+											</div>
+										</div><!--//level-bar-->
+									</div><!--//item-->
 
-    <!-- ******FOOTER****** -->
-    <footer class="panel-footer">
-        <div class="container text-center">
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+									<div class="item">
+										<h3 class="level-title">Drive for success<span class="level-label">Expert</span></h3>
+										<div class="level-bar">
+											<div class="level-bar-inner" data-level="100%">
+											</div>
+										</div><!--//level-bar-->
+									</div><!--//item-->
+
+									<p><a class="more-link" href="https://github.com/eubanksanator"><i class="fa fa-external-link"></i> More on GitHub</a></p>
+								</div>
+							</div><!--//content-->
+						</div><!--//section-inner-->
+					</aside><!--//section-->
+
+
+					<aside class="education aside section">
+						<div class="section-inner">
+							<h2 class="heading">Education</h2>
+							<div class="content">
+								<div class="item">
+									<h3 class="title"><i class="fa fa-graduation-cap"></i> 11 week Intensive and immersive Web Application Program</h3>
+									<h4 class="university">The Starter League <span class="year">(2015-2015)</span></h4>
+								</div><!--//item-->
+								<div class="item">
+									<h3 class="title"><i class="fa fa-graduation-cap"></i> GenEds-Computer Science</h3>
+									<h4 class="university">Elgin Community College <span class="year">(2012-2014)</span></h4>
+								</div><!--//item-->
+								<div class="item">
+									<h3 class="title"><i class="fa fa-graduation-cap"></i> ACE Personal Training Certificate</h3>
+									<h4 class="university">ACE<span class="year">(2013)</span></h4>
+								</div><!--//item-->
+							</div><!--//content-->
+						</div><!--//section-inner-->
+					</aside><!--//section-->
+
+					<aside class="languages aside section">
+						<div class="section-inner">
+							<h2 class="heading">Languages</h2>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li class="item">
+										<span class="title"><strong>English:</strong></span>
+										<span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+									</li><!--//item-->
+								</ul>
+							</div><!--//content-->
+						</div><!--//section-inner-->
+					</aside><!--//section-->
+
+
+
+					<aside class="list music aside section">
+						<div class="section-inner">
+							<h2 class="heading">Favourite coding music</h2>
+							<div class="content">
+								<ul class="list-unstyled">
+									<li><i class="fa fa-headphones"></i>Love some instrumentals</li>
+									<li><i class="fa fa-headphones"></i>EDM</li>
+									<li><i class="fa fa-headphones"></i>Rock Classics Spotify playlist</li>
+								</ul>
+							</div><!--//content-->
+						</div><!--//section-inner-->
+					</aside><!--//section-->
+
+
+				</div><!--//secondary-->
+			</div><!--//row-->
+		</div><!--//masonry-->
+
+		<!-- ******FOOTER****** -->
+		<footer class="panel-footer">
+			<div class="container text-center">
+				<small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			</div><!--//container-->
+		</footer><!--//footer-->
